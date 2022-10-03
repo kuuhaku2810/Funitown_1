@@ -1,0 +1,87 @@
+.pro-details__head{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    .pro-details__head-share{
+        ul{
+            display: flex;
+            li{
+                margin: 20px;
+            }
+        }
+    }
+}
+main{
+    .pro-details_main-detail{
+        border: 1px solid #000;
+        margin-top: 80px;
+        .not-container{
+            width: 1180px;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns: 900px 300px;
+            grid-gap: 1px ;
+            
+            .pro-details_main-preview{
+                .preview-img{
+                    position: relative;
+                    height: 540px;
+                    width: 800px;
+                    overflow: hidden;
+                    img{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        transform: translate(0%,-10%);
+                    }
+                }
+                .pro-btn{
+                    display: flex;
+                    span{
+                        position: relative;
+                        content: "";
+                        width: 60px;
+                        height: 60px;
+                        display: block;
+                        background-color: #000;
+                        border-radius: 50%;
+                        margin: 10px 10px 0 0; 
+                        .tri{
+                            width: 0;
+                            height: 0;
+                            border-top: 10px solid transparent;
+                            border-left: 20px solid #fff;
+                            border-bottom: 10px solid transparent;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-40%,-50%);
+                        }
+                    }
+                    .previous{
+                        .tri{
+                            border-right: 20px solid #fff; 
+                            border-left: transparent;
+                            transform: translate(-60%,-50%);
+                        }
+                    }
+                }
+            }
+            .pro-details_main-info{
+                
+                h2{
+                    font-size: 32px;
+                    margin-left: 25px;
+                }
+               .info{
+                   display: flex;
+                   margin-left: 25px;
+               }
+               .short-preview{
+                margin-left: 25px;
+               }
+            }
+        }
+    }
+}

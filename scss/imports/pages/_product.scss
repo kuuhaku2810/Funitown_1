@@ -1,0 +1,29 @@
+main{
+    .product__selection{
+        position: relative;
+        .product__selection-grid{
+            position: relative;
+            .product__selection-click{
+                position: absolute;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                background-color: #000;
+                right: 0;
+                bottom: 0;
+                span{
+                    width: 0;
+                    height: 0;
+                    border-top: 15px solid transparent;
+                    border-left: 30px solid #fff;
+                    border-bottom: 15px solid transparent;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-40%,-50%);
+                }
+            }
+        }
+
+    }
+}

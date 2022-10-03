@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir-Heavy.woff2') format('woff2'),
+        url('../fonts/Avenir-Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Elle';
+    src: url('../fonts/ElleBaskerville.woff2') format('woff2'),
+        url('../fonts/ElleBaskerville.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'ElleB';
+    src: url('../fonts/ElleBaskerville-Bold.woff2') format('woff2'),
+        url('../fonts/ElleBaskerville-Bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'ElleBI';
+    src: url('../fonts/ElleBaskerville-BoldItalic.woff2') format('woff2'),
+        url('../fonts/ElleBaskerville-BoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'ElleI';
+    src: url('../fonts/ElleBaskerville-BoldItalic.woff2') format('woff2'),
+        url('../fonts/ElleBaskerville-BoldItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'ElleSB';
+    src: url('../fonts/ElleBaskerville-SemiBold.woff2') format('woff2'),
+        url('../fonts/ElleBaskerville-SemiBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'ElleSBI';
+    src: url('../fonts/ElleBaskerville-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/ElleBaskerville-SemiBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: fallback;
+}
